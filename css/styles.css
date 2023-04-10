@@ -26,18 +26,20 @@ body {
   width: 1158px;
   display: flex;
   align-items: center;
+  padding-left: 71px;
+  padding-right: 71px;
 }
 
 .nav {
   display: flex;
   align-items: center;
+  height: 72px;
 }
 
 .header {
   text-decoration: none;
   color: inherit;
-  display: flex;
-  align-items: center;
+
 }
 
 /* site nav */
@@ -55,20 +57,13 @@ body {
 .auth-nav {
   display: flex;
   align-items: center;
-
+  margin-left: auto;
 }
 
 .auth-nav .item:not(:last-child) {
   margin-right: 40px;
 
 }
-
-
-
-
-
-
-
 
 .list {
   list-style-type: none;
@@ -145,6 +140,7 @@ info-link.link:focus {
 .hero {
   background-color: var(--hero-background);
   font-family: 'Roboto', sans-serif;
+  height: 600px;
 }
 
 .hero-title {
@@ -155,7 +151,7 @@ info-link.link:focus {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  ;
+  text-align: center;
 }
 
 .hero-button {
@@ -168,9 +164,11 @@ info-link.link:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
-
+  text-align: center;
+  display: inline-block;
 }
+
+
 
 .hero-button:hover,
 .hero-button:focus {
