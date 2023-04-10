@@ -24,10 +24,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
+  padding: 0 15px;
+
+}
+
+.main-nav {
   display: flex;
   align-items: center;
-  padding-left: 71px;
-  padding-right: 71px;
+
 }
 
 .nav {
@@ -141,6 +145,8 @@ info-link.link:focus {
   background-color: var(--hero-background);
   font-family: 'Roboto', sans-serif;
   height: 600px;
+  text-align: center;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -152,6 +158,12 @@ info-link.link:focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 496px;
+  margin-bottom: 48px;
+
 }
 
 .hero-button {
@@ -164,11 +176,22 @@ info-link.link:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: center;
-  display: inline-block;
+
+
 }
 
-
+.hero-button,
+.button {
+  text-align: center;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px;
+}
 
 .hero-button:hover,
 .hero-button:focus {
@@ -179,6 +202,43 @@ info-link.link:focus {
 .section {
   color: var(--dark);
 }
+
+/* sect 1 */
+
+
+
+/* section 2 blok */
+.foto-nav {
+  padding-bottom: 120px;
+
+}
+
+.section-tho {
+  padding-bottom: 72px;
+  padding-top: auto;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+}
+
+.list .atem:not(:last-child) {
+  margin-right: 24px;
+}
+
+.atem {
+  width: 360px;
+
+}
+
+.text-nav {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: auto;
+  padding-right: auto;
+}
+
 
 .section-one {
   font-style: normal;
@@ -221,6 +281,13 @@ info-link.link:focus {
   background-color: var(--white-background);
 }
 
+/* 3 section */
+.info-nav {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
 .section-team {
   background-color: var(--light);
 
@@ -260,6 +327,11 @@ info-link.link:focus {
   background-color: var(--white-background);
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.foot-nav {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* portfolio */
