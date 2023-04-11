@@ -412,15 +412,18 @@ info-link.link:focus {
 }
 
 .filter-list {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
   gap: 24px;
-  align-items: center;
-  margin: 72px;
+  margin-bottom: 72px;
+  justify-content: center;
 }
 
+.clear {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .filter-button {
   justify-content: center;
@@ -486,7 +489,6 @@ info-link.link:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-right: 24px;
   width: 360px;
   border: 1px solid #E7E9FC;
   flex-basis: calc(100%-2*24px)/3;
