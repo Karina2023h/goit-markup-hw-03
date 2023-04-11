@@ -70,9 +70,9 @@ img {
   margin-right: 76px;
 }
 
-.studio {
+/* .studio {
   margin-right: 76px;
-}
+} */
 
 /* site nav */
 .site-nav {
@@ -237,6 +237,10 @@ info-link.link:focus {
 }
 
 /* sect 1 */
+.section-eno {
+  padding: 120px 0;
+}
+
 .info-nav {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -244,12 +248,16 @@ info-link.link:focus {
 
 .itom {
   margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .title,
 .title-description {
   max-width: 264px;
+}
 
+.title {
+  margin-bottom: 8px;
 }
 
 /* section 2 blok */
@@ -271,6 +279,7 @@ info-link.link:focus {
 .list {
   display: flex;
   padding: 0;
+  gap: 24px;
 }
 
 .list .atem:not(:last-child) {
