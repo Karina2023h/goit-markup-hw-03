@@ -400,12 +400,12 @@ info-link.link:focus {
 }
 
 .theam {
-  margin-bottom: 72px;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-team {
   background-color: var(--light);
-  width: calc((100% - 72px) / 4);
+
 }
 
 .list-sec {
@@ -524,8 +524,17 @@ info-link.link:focus {
   color: var(--dark);
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
 
 }
+
+.portfolio-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+
+}
+
 
 .portfolio-platform {
   font-size: 16px;
