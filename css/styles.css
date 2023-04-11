@@ -241,6 +241,10 @@ info-link.link:focus {
   padding: 120px 0;
 }
 
+.section-one {
+  width: calc((100% - 72px) / 4);
+}
+
 .info-nav {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -248,7 +252,7 @@ info-link.link:focus {
 
 .itom {
   margin-right: 24px;
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
 }
 
 .title,
@@ -396,6 +400,9 @@ info-link.link:focus {
   padding-bottom: 120px;
 }
 
+.theam {
+  margin-bottom: 72px;
+}
 
 .section-team {
   background-color: var(--light);
@@ -416,7 +423,7 @@ info-link.link:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
-  ;
+
 }
 
 .staff-name {
@@ -428,6 +435,7 @@ info-link.link:focus {
   letter-spacing: 0.02em;
   background-color: var(--white-background);
   color: var(--dark);
+
 }
 
 .staff-role,
@@ -460,6 +468,8 @@ info-link.link:focus {
 .filter-button {
   justify-content: center;
   padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 
 }
 
@@ -468,9 +478,6 @@ info-link.link:focus {
 .groop {
   padding: 96px 0 120px;
 }
-
-
-
 
 .filter-button {
   font-family: 'Roboto', sans-serif;
@@ -490,12 +497,14 @@ info-link.link:focus {
   background-color: #404bbf;
   color: var(--white-background);
   text-decoration: none;
+  border: 1px solid transparent;
 }
 
 .filter-button:focus {
   background-color: #404bbf;
   color: var(--white-background);
   text-decoration: none;
+  border: 1px solid transparent;
 }
 
 .portfolio-type {
