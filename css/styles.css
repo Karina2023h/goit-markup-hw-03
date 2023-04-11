@@ -232,6 +232,8 @@ info-link.link:focus {
 /* section */
 .section {
   color: var(--dark);
+
+
 }
 
 /* sect 1 */
@@ -266,6 +268,7 @@ info-link.link:focus {
 .list {
   display: flex;
   padding: 0;
+
 }
 
 .list .atem:not(:last-child) {
@@ -275,6 +278,7 @@ info-link.link:focus {
 .atem {
   width: 360px;
   gap: 24px;
+
 }
 
 .text-nav {
@@ -449,6 +453,14 @@ info-link.link:focus {
 }
 
 /* portfolio */
+
+.groop {
+  padding: 96px 0 120px;
+}
+
+
+
+
 .filter-button {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
