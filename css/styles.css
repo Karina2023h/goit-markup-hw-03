@@ -261,14 +261,16 @@ info-link.link:focus {
   padding-bottom: 72px;
   padding-top: auto;
   align-items: center;
+  margin-bottom: 72px;
+}
+
+.section {
   padding-bottom: 120px;
-  padding-top: 120px;
 }
 
 .list {
   display: flex;
   padding: 0;
-
 }
 
 .list .atem:not(:last-child) {
