@@ -406,7 +406,7 @@ info-link.link:focus {
 
 .section-team {
   background-color: var(--light);
-
+  width: calc((100% - 72px) / 4);
 }
 
 .list-sec {
