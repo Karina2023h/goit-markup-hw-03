@@ -41,7 +41,6 @@ body {
   margin-right: auto;
   width: 1158px;
   padding: 0 15px;
-
 }
 
 img {
@@ -69,10 +68,6 @@ img {
 .logo.link {
   margin-right: 76px;
 }
-
-/* .studio {
-  margin-right: 76px;
-} */
 
 /* site nav */
 .site-nav {
@@ -125,8 +120,6 @@ img {
   font-style: normal;
   margin-left: auto;
 }
-
-
 
 .nav-link {
   color: var(--dark);
@@ -190,7 +183,6 @@ info-link.link:focus {
   margin-right: auto;
   max-width: 496px;
   margin-bottom: 48px;
-
 }
 
 .hero-button {
@@ -203,8 +195,6 @@ info-link.link:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
-
 }
 
 .hero-button,
@@ -228,8 +218,6 @@ info-link.link:focus {
 /* section */
 .section {
   color: var(--dark);
-
-
 }
 
 /* sect 1 */
@@ -239,10 +227,6 @@ info-link.link:focus {
 
 .section-one {
   width: calc((100% - 72px) / 4);
-}
-
-.itom {
-  /* width: calc((100% - 72px) / 4); */
 }
 
 .title,
@@ -271,7 +255,6 @@ info-link.link:focus {
   gap: 24px;
 }
 
-
 .atem {
   width: 360px;
   gap: 24px;
@@ -292,8 +275,6 @@ info-link.link:focus {
   margin-bottom: 72px;
 
 }
-
-
 
 .staff-name,
 .staff-role {
@@ -322,14 +303,11 @@ info-link.link:focus {
 
 .footer-text {
   max-width: 264px;
-
 }
 
 .footer-studio {
   display: inline-block;
-
 }
-
 
 .section-one {
   font-style: normal;
@@ -430,8 +408,6 @@ info-link.link:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-
 
 .filter-list {
   margin-left: auto;
