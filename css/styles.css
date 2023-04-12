@@ -78,12 +78,8 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
-  margin-left: 76px;
 }
 
-.site-nav .item:not(:last-child) {
-  margin-right: 40px;
-}
 
 /* adress  */
 .auth-nav {
@@ -245,11 +241,6 @@ info-link.link:focus {
   width: calc((100% - 72px) / 4);
 }
 
-.info-nav {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .itom {
   /* width: calc((100% - 72px) / 4); */
 }
@@ -264,13 +255,9 @@ info-link.link:focus {
 }
 
 /* section 2 blok */
-.foto-nav {
-  padding-bottom: 120px;
-}
+
 
 .section-tho {
-  padding-bottom: 72px;
-  padding-top: auto;
   align-items: center;
   margin-bottom: 72px;
 }
@@ -285,9 +272,6 @@ info-link.link:focus {
   gap: 24px;
 }
 
-.list .atem:not(:last-child) {
-  margin-right: 24px;
-}
 
 .atem {
   width: 360px;
@@ -303,10 +287,6 @@ info-link.link:focus {
 }
 
 /* 3 sect */
-.name-nav {
-  height: 732px;
-
-}
 
 .section-three {
   align-items: center;
@@ -345,7 +325,7 @@ info-link.link:focus {
 
 .footer-text {
   max-width: 264px;
-  margin-bottom: 16px;
+
 }
 
 .footer-studio {
@@ -396,11 +376,6 @@ info-link.link:focus {
 }
 
 /* 3 section */
-.info-nav {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .theam {
   width: calc((100% - 72px) / 4);
 }
@@ -459,10 +434,7 @@ info-link.link:focus {
   letter-spacing: 0.02em;
 }
 
-.btn-group {
-  padding-top: 96px;
-  padding-bottom: 72px;
-}
+
 
 .filter-list {
   margin-left: auto;
@@ -487,9 +459,8 @@ info-link.link:focus {
 }
 
 /* portfolio */
-
 .groop {
-  padding: 96px 0 120px;
+  padding-top: 96px;
 }
 
 .filter-button {
