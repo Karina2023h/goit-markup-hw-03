@@ -256,7 +256,6 @@ info-link.link:focus {
 
 /* section 2 blok */
 
-
 .section-tho {
   align-items: center;
   margin-bottom: 72px;
@@ -294,9 +293,9 @@ info-link.link:focus {
 
 }
 
-.list .theam:not(:last-child) {
+/* .list .theam:not(:last-child) {
   margin-right: 24px;
-}
+} */
 
 .staff-name,
 .staff-role {
@@ -461,6 +460,7 @@ info-link.link:focus {
 /* portfolio */
 .groop {
   padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .filter-button {
