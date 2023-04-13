@@ -26,7 +26,7 @@ h2,
 h3,
 ul,
 p {
-  margin: 0%;
+  margin: 0;
 }
 
 /* body */
@@ -53,6 +53,17 @@ img {
   border-bottom: 1px solid #E7E9FC;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -73,19 +84,16 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
+  gap: 40px;
+  padding: 0;
 }
 
-
+/* до адресса , але не точно */
 /* adress  */
 .auth-nav {
   display: flex;
+  gap: 40px;
   align-items: center;
-  margin-left: auto;
-}
-
-.auth-nav .item:not(:last-child) {
-  margin-right: 40px;
-
 }
 
 .list {
@@ -229,6 +237,32 @@ info-link.link:focus {
   width: calc((100% - 72px) / 4);
 }
 
+.section-one-list {
+  gap: 24px;
+  padding: 0;
+  display: flex;
+}
+
+.section-tho-list {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+  padding: 0;
+}
+
+.section-three-list {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+  padding: 0;
+}
+
+.filter-list {
+  display: flex;
+  padding: 0;
+  gap: 24px;
+}
+
 .title,
 .title-description {
   max-width: 264px;
@@ -250,9 +284,9 @@ info-link.link:focus {
 }
 
 .list {
-  display: flex;
+
   padding: 0;
-  gap: 24px;
+
 }
 
 .atem {
@@ -276,14 +310,7 @@ info-link.link:focus {
 
 }
 
-.staff-name,
-.staff-role {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .theam {
   border-radius: 0px 0px 4px 4px;
@@ -392,7 +419,6 @@ info-link.link:focus {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
   background-color: var(--white-background);
   color: var(--dark);
